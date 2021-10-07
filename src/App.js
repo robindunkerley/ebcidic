@@ -49,7 +49,7 @@ const dotsStyle = {
 
 const sliderStyle = {
   marginLeft: '10%',
-  height: '85%',
+  height: '80%',
 }
 
 const keenSlideStyle = {

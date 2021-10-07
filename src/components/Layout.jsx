@@ -7,14 +7,15 @@ const layoutStyle ={
 
 const titleStyle = {
     border: '1px solid white',
-    fontSize: '2.5rem',
+    fontSize: '2rem',
+    fontWeight: '400',
     display: 'block',
     textAlign: 'left',
     paddingLeft: '5%'
 }
 
 const contentStyle = {
-    height: '84%',
+    height: '80%',
     padding: '5% 0',
     border: '1px solid white'
 }
