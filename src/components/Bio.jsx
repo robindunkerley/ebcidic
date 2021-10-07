@@ -68,7 +68,7 @@ const iconContainerStyleBio = {
 }
 
 const Bio = () => {
-    const { fontSize, ref } = useFitText({minFontSize: 35});
+    const { fontSize, ref } = useFitText();
 
     return (
         <Layout title='Ebcidic'>
@@ -83,7 +83,7 @@ const Bio = () => {
                                                 margin: '0 auto',
                                                 width: '90%',
                                                 minHeight: '40%',
-                                                maxHeight: '70%'
+                                                maxHeight: '50%'
                                                 }} 
                                                 className='description-container'>
                         
