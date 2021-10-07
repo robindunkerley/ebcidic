@@ -72,14 +72,12 @@ const wrapperStyle = {
 
 const releaseContentStyle = {
     width: '100%',
-    height: '95%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-around'
+    height: '95%'
 }
 
 const artworkContainerStyle = {
-    border: '1px solid white',
+    marginTop: '5%',
+    marginBottom: '5%',
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px',
     margin: '0 auto',
     width: '80%',
