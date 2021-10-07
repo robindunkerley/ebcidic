@@ -37,7 +37,6 @@ const biopicContainerStyle = {
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px',
     margin: '5% auto',
     width: '25vh',
-    maxWidth: '180px',
     borderRadius: '2%',
 }
 
@@ -82,7 +81,7 @@ const Bio = () => {
                                                 lineHeight: 1,
                                                 margin: '0 auto',
                                                 width: '90%',
-                                                minHeight: '40%',
+                                                minHeight: '30%',
                                                 maxHeight: '50%'
                                                 }} 
                                                 className='description-container'>

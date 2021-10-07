@@ -22,8 +22,8 @@ const pageStyle = {
 
 const slideStyle = {
   backgroundColor: 'black',
-  width: '80vw',
-  height: '80vh',
+  width: '90vw',
+  height: '90vh',
   margin: '0 auto'
 }
 
