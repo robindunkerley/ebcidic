@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/http//robindunkerley.github.io/ebcidic/static/css/main.a4526547.chunk.css",
+    "main.js": "/http//robindunkerley.github.io/ebcidic/static/js/main.5c897ad2.chunk.js",
+    "main.js.map": "/http//robindunkerley.github.io/ebcidic/static/js/main.5c897ad2.chunk.js.map",
+    "runtime-main.js": "/http//robindunkerley.github.io/ebcidic/static/js/runtime-main.e021dba9.js",
+    "runtime-main.js.map": "/http//robindunkerley.github.io/ebcidic/static/js/runtime-main.e021dba9.js.map",
+    "static/css/2.07625b40.chunk.css": "/http//robindunkerley.github.io/ebcidic/static/css/2.07625b40.chunk.css",
+    "static/js/2.123c2b07.chunk.js": "/http//robindunkerley.github.io/ebcidic/static/js/2.123c2b07.chunk.js",
+    "static/js/2.123c2b07.chunk.js.map": "/http//robindunkerley.github.io/ebcidic/static/js/2.123c2b07.chunk.js.map",
+    "static/js/3.402c5005.chunk.js": "/http//robindunkerley.github.io/ebcidic/static/js/3.402c5005.chunk.js",
+    "static/js/3.402c5005.chunk.js.map": "/http//robindunkerley.github.io/ebcidic/static/js/3.402c5005.chunk.js.map",
+    "index.html": "/http//robindunkerley.github.io/ebcidic/index.html",
+    "static/css/2.07625b40.chunk.css.map": "/http//robindunkerley.github.io/ebcidic/static/css/2.07625b40.chunk.css.map",
+    "static/css/main.a4526547.chunk.css.map": "/http//robindunkerley.github.io/ebcidic/static/css/main.a4526547.chunk.css.map",
+    "static/js/2.123c2b07.chunk.js.LICENSE.txt": "/http//robindunkerley.github.io/ebcidic/static/js/2.123c2b07.chunk.js.LICENSE.txt",
+    "static/media/CharmingHades.fe41a41b.jpg": "/http//robindunkerley.github.io/ebcidic/static/media/CharmingHades.fe41a41b.jpg",
+    "static/media/EbcidicTateModern.48c22f8f.jpg": "/http//robindunkerley.github.io/ebcidic/static/media/EbcidicTateModern.48c22f8f.jpg",
+    "static/media/App.css": "/http//robindunkerley.github.io/ebcidic/static/media/Mosaic.51969634.jpg",
+    "static/media/PressureComplex.2c13c078.jpg": "/http//robindunkerley.github.io/ebcidic/static/media/PressureComplex.2c13c078.jpg",
+    "static/media/Suture.aa2c88cd.jpg": "/http//robindunkerley.github.io/ebcidic/static/media/Suture.aa2c88cd.jpg",
+    "static/media/VestigeOfBefore.bd966195.jpg": "/http//robindunkerley.github.io/ebcidic/static/media/VestigeOfBefore.bd966195.jpg",
+    "static/media/bandcampIcon.aed2107e.png": "/http//robindunkerley.github.io/ebcidic/static/media/bandcampIcon.aed2107e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e021dba9.js",
+    "static/css/2.07625b40.chunk.css",
+    "static/js/2.123c2b07.chunk.js",
+    "static/css/main.a4526547.chunk.css",
+    "static/js/main.5c897ad2.chunk.js"
+  ]
+}
