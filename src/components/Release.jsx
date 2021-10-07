@@ -90,7 +90,7 @@ const artworkStyle = {
 
 const titleContainerStyle = {
     margin: '0 auto',
-    width: '80%',
+    width: '100%',
 }
 
 const descriptionTextStyle = {
