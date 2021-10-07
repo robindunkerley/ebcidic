@@ -75,6 +75,10 @@ const releaseContentStyle = {
     height: '95%'
 }
 
+const spacerStyle = {
+    padding: '5% 0'
+}
+
 const artworkContainerStyle = {
     marginTop: '5%',
     marginBottom: '5%',
@@ -132,8 +136,10 @@ const Releases = (props) => {
                                                                             <div style={titleContainerStyle} className='title-container'>
                                             <span style={{fontWeight: '400'}} className='release-title'>{ary.title}</span>
                                         </div>
-                                        <div style={artworkContainerStyle} className='artwork-container'>
-                                            <img style={artworkStyle} src={ary.artwork} alt={ary.title} />
+                                        <div style={spacerStyle} className="spacer">
+                                            <div style={artworkContainerStyle} className='artwork-container'>
+                                                <img style={artworkStyle} src={ary.artwork} alt={ary.title} />
+                                            </div>
                                         </div>
                                         <div ref={ref} style={{fontSize, 
                                                                 margin: '0 auto',

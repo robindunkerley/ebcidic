@@ -38,7 +38,7 @@ const biopicContainerStyle = {
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px',
     margin: '5% auto',
     width: '80%',
-    maxWidth: '200px',
+    maxWidth: '150px',
     borderRadius: '2%',
 }
 
@@ -54,7 +54,7 @@ const titleContainerStyle = {
 }
 
 const bioTextStyle = {
-    lineHeight: '2',
+    lineHeight: '1',
     minHeight: '40px',
     fontWeight: '300',
     marginBlockStart: 0,

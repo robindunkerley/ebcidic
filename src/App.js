@@ -48,9 +48,9 @@ const dotsStyle = {
 
 const sliderStyle = {
   position: 'relative',
-  top: '-16%',
+  top: '-18%',
   marginLeft: '10%',
-  height: '80%',
+  height: '84%',
 }
 
 const keenSlideStyle = {

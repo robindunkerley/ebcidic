@@ -10,7 +10,7 @@ const titleStyle = {
     fontSize: '2.5rem',
     display: 'block',
     textAlign: 'left',
-    paddingLeft: '10%'
+    paddingLeft: '5%'
 }
 
 const contentStyle = {
