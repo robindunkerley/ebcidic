@@ -28,7 +28,7 @@ const wrapperStyle = {
 }
 
 const bioContainerStyle = {
-    height: '95%',
+    height: '75%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around'
@@ -38,7 +38,7 @@ const biopicContainerStyle = {
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px',
     margin: '5% auto',
     width: '80%',
-    maxWidth: '150px',
+    maxWidth: '180px',
     borderRadius: '2%',
 }
 
@@ -55,7 +55,7 @@ const titleContainerStyle = {
 
 const bioTextStyle = {
     lineHeight: '1',
-    minHeight: '40px',
+    minHeight: '100px',
     fontWeight: '300',
     marginBlockStart: 0,
     marginBlockEnd: 0
@@ -64,7 +64,7 @@ const bioTextStyle = {
 const iconContainerStyleBio = {
     marginTop: '3%',
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: 'center',
     margin: '0 auto',
     width: '40%',
