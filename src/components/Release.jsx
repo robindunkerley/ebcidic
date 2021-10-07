@@ -64,7 +64,6 @@ const release = [
 ]
 
 const releaseContentStyle = {
-    border: '2px solid yellow'
 }
 
 const spacerStyle = {
@@ -132,7 +131,7 @@ const Releases = (props) => {
                 {release.map(ary => {
 
                         return  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%'}}>
-                                <div style={releaseContentStyle} className='release-content-container'>
+                                <div className='release-content-container'>
                                             <div style={titleContainerStyle} className='title-container'>
                                                 <span style={{fontWeight: '400'}} className='release-title'>{ary.title}</span>
                                             </div>
