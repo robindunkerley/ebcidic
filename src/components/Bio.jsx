@@ -27,7 +27,6 @@ const wrapperStyle = {
 }
 
 const bioContainerStyle = {
-    border: '2px solid yellow',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around'
