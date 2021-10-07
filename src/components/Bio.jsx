@@ -79,7 +79,6 @@ const Bio = () => {
                                                 fontWeight: '200',
                                                 lineHeight: 1,
                                                 margin: '0 auto',
-                                                border: '1px solid white',
                                                 width: '90%',
                                                 minHeight: '40%',
                                                 maxHeight: '70%'
