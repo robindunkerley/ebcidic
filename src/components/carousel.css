@@ -1,0 +1,17 @@
+.dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #818181;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dot:focus {
+    outline: none;
+  }
+  
+  .dot.active {
+    background: white;
+  }

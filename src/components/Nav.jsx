@@ -1,0 +1,54 @@
+import React from 'react'
+import { Icon } from '@material-ui/core';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
+const navStyle ={
+    fontFamily: 'poppins',
+    border: '1px solid white',
+    height: '10%',
+    display: 'flex',
+    color: 'white'
+}
+
+const navLeftStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    width: '50%'
+}
+
+const navRightStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    width: '50%'
+}
+
+const iconContainerStyle = {
+    padding: '0 2rem',
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-between',
+}
+
+
+
+const Nav = () => {
+    return (
+        <div style={navStyle}>
+            <div style={navLeftStyle} className="nav-left">
+                <span style={{marginLeft: '20%'}}>Ebcidic</span>
+            </div>
+            <div style={navRightStyle} className="nav-right">
+                <div style={iconContainerStyle} className='icon-container'>
+                    <Icon component={YouTubeIcon} />
+                    <Icon component={FacebookIcon} />
+                    <Icon component={InstagramIcon} />
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default Nav
