@@ -14,7 +14,8 @@ const titleStyle = {
 }
 
 const contentStyle = {
-    height: '85%',
+    height: '84%',
+    padding: '5% 0',
     border: '1px solid white'
 }
 

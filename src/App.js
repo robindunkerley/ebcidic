@@ -23,12 +23,12 @@ const pageStyle = {
 const slideStyle = {
   backgroundColor: 'black',
   width: '80vw',
-  height: '75vh',
+  height: '85vh',
   margin: '0 auto'
 }
 
 const spacer = {
-  height: '5%'
+  height: '2%'
 }
 
 const dotsContainer = {
@@ -49,7 +49,7 @@ const dotsStyle = {
 
 const sliderStyle = {
   marginLeft: '10%',
-  height: '84%',
+  height: '85%',
 }
 
 const keenSlideStyle = {
@@ -61,6 +61,7 @@ function App() {
   const [sliderRef, slider] = useKeenSlider({
     centered: true,
     slidesPerView: 1,
+    spacing: 30,
     vertical: true,
     loop: true,
     slideChanged(s) {

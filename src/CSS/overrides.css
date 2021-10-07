@@ -5,3 +5,7 @@
 .carousel > .slider-wrapper > .slider {
   height: 100%;
 }
+
+.carousel .control-dots {
+  margin-bottom: 0;
+}

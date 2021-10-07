@@ -1,6 +1,5 @@
 import React from 'react'
 import useFitText from "use-fit-text";
-import { Carousel } from 'react-responsive-carousel';
 import { Icon, IconButton } from '@mui/material';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import BandCampIcon from '../assets/icons/bandcampIcon.png'
@@ -37,7 +36,7 @@ const bioContainerStyle = {
 const biopicContainerStyle = {
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px',
     margin: '5% auto',
-    width: '80%',
+    width: '70%',
     maxWidth: '180px',
     borderRadius: '2%',
 }
@@ -48,14 +47,9 @@ const biopicStyle = {
     borderRadius: '2%'
 }
 
-const titleContainerStyle = {
-    margin: '0 auto',
-    width: '80%',
-}
-
 const bioTextStyle = {
-    lineHeight: '1',
-    minHeight: '100px',
+    border: '1px solid white',
+    height: '100px',
     fontWeight: '300',
     marginBlockStart: 0,
     marginBlockEnd: 0
@@ -72,7 +66,7 @@ const iconContainerStyleBio = {
 }
 
 const Bio = () => {
-    const { fontSize, ref } = useFitText();
+    const { fontSize, ref } = useFitText({minFontSize: 35});
 
     return (
         <Layout title='Ebcidic'>
@@ -82,15 +76,18 @@ const Bio = () => {
                         <img style={biopicStyle} src={Ebcidic} alt='Ebcidic' />
                     </div>
                         <div ref={ref} style={{fontSize, 
+                                                fontWeight: '200',
+                                                lineHeight: 1,
                                                 margin: '0 auto',
-                                                width: '80%',
-                                                maxWidth: '750px',
-                                                maxHeight: '100px',
+                                                border: '1px solid white',
+                                                width: '90%',
+                                                minHeight: '40%',
+                                                maxHeight: '70%'
                                                 }} 
                                                 className='description-container'>
-                            <p className='description-text' style={bioTextStyle}>
+                        
                                 {bioText}
-                            </p>
+    
                         </div>
                         <div style={iconContainerStyleBio} className="icon-container">
                             <Icon component={YouTubeIcon}/>
