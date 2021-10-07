@@ -32,9 +32,10 @@ const spacer = {
 }
 
 const dotsContainer = {
+  display: 'inline-block',
+  float: 'left',
   height: '15%',
   width: '5%',
-  marginLeft: '2%'
 }
 
 const dotsStyle = {
@@ -47,8 +48,6 @@ const dotsStyle = {
 }
 
 const sliderStyle = {
-  position: 'relative',
-  top: '-18%',
   marginLeft: '10%',
   height: '84%',
 }
@@ -61,7 +60,6 @@ function App() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [sliderRef, slider] = useKeenSlider({
     centered: true,
-    spacing: 10,
     slidesPerView: 1,
     vertical: true,
     loop: true,
