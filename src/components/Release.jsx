@@ -64,15 +64,13 @@ const release = [
 ]
 
 const wrapperStyle = {
-    height: '100%',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center'
+    justifyContent: 'center',
 }
 
 const releaseContentStyle = {
-    width: '100%',
-    height: '95%'
+    height: '100%'
 }
 
 const spacerStyle = {
@@ -110,7 +108,8 @@ const descriptionTextStyle = {
 }
 
 const iconContainerStyle = {
-    marginTop: '3%',
+    position: 'relative',
+    bottom: 0,
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -118,6 +117,10 @@ const iconContainerStyle = {
     width: '28%',
     marginBottom: '5%'
 }
+
+const carouselProps = () => ({
+    showIndicators: false
+})
 
 
 
@@ -130,33 +133,42 @@ const Releases = (props) => {
         <Layout title={'Releases'}>
             <Carousel   className="carousel-wrapper"
                         showThumbs={false}
+                        {...carouselProps()}
                         >
                 {release.map(ary => {
-                        return      <div style={wrapperStyle} className="wrapper">
-                                        <div style={releaseContentStyle} className='release-content-container'>
-                                                                            <div style={titleContainerStyle} className='title-container'>
-                                            <span style={{fontWeight: '400'}} className='release-title'>{ary.title}</span>
-                                        </div>
-                                        <div style={spacerStyle} className="spacer">
-                                            <div style={artworkContainerStyle} className='artwork-container'>
-                                                <img style={artworkStyle} src={ary.artwork} alt={ary.title} />
+
+                        return  <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%'}}>
+                        <div style={wrapperStyle} className="wrapper">
+                                <div style={releaseContentStyle} className='release-content-container'>
+                                            <div style={titleContainerStyle} className='title-container'>
+                                                <span style={{fontWeight: '400'}} className='release-title'>{ary.title}</span>
                                             </div>
-                                        </div>
-                                        <div ref={ref} style={{fontSize, 
-                                                                margin: '0 auto',
-                                                                width: '90%',
-                                                                maxWidth: '750px',
-                                                                maxHeight: '90px',
-                                                                }} 
-                                                                className='description-container'>
-                                            <p className='description-text' style={descriptionTextStyle}>{ary.description}</p>
-                                        </div>
+                                            <div style={spacerStyle} className="spacer">
+                                                <div style={artworkContainerStyle} className='artwork-container'>
+                                                    <img style={artworkStyle} src={ary.artwork} alt={ary.title} />
+                                                </div>
+                                            </div>
+                                            <div ref={ref} style={{fontSize, 
+                                                                    margin: '0 auto',
+                                                                    width: '90%',
+                                                                    maxWidth: '750px',
+                                                                    maxHeight: '90px',
+                                                                    }} 
+                                                                    className='description-container'>
+                                                <p className='description-text' style={descriptionTextStyle}>{ary.description}</p>
+                                            </div>
+                                </div>
+                        </div>
+    
                                         <div style={iconContainerStyle} className="icon-container">
                                             <Icon component={YouTubeIcon}/>
                                             <a href={ary.bandcampURL}><img style={{height:'32px', width: '38px'}} src={BandCampIcon} alt="bandcamp-icon" /></a>
                                         </div>
-                                    </div>
+                                    
                                 </div>
+                                    
+                                
+    
                 })}
 
             </Carousel>

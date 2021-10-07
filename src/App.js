@@ -23,7 +23,7 @@ const pageStyle = {
 const slideStyle = {
   backgroundColor: 'black',
   width: '80vw',
-  height: '85vh',
+  height: '80vh',
   margin: '0 auto'
 }
 
@@ -49,7 +49,7 @@ const dotsStyle = {
 
 const sliderStyle = {
   marginLeft: '10%',
-  height: '80%',
+  height: '90%',
 }
 
 const keenSlideStyle = {

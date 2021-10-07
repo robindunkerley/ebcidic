@@ -9,3 +9,9 @@
 .carousel .control-dots {
   margin-bottom: 0;
 }
+
+@media only screen and (min-height: 629px) {
+  .carousel .control-dots {
+    display: hidden;
+  }
+}

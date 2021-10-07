@@ -20,14 +20,14 @@ const URLs = {
 const bioText = "Ebcidic is the artist name of Techno & experimental/drone producer and live performer Phil Bilsby based in Brighton, UK. During 2018/19, with both his ‘Charming Hades’ & ‘Mosaic' industrial ambient drone albums, and more recently with his ’Suture EP’ & ‘Pressure Complex’ releases in 2020 sees Ebcidic continue to delve deeper into the darker & harder side of techno through his extended live sets marrying claustrophobic industrial textures & soundscapes underpinned by tough unrelenting rhythms & percussion."
 
 const wrapperStyle = {
-    height: '100%',
+    height: '90%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center'
 }
 
 const bioContainerStyle = {
-    height: '75%',
+    border: '2px solid yellow',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around'
@@ -57,6 +57,8 @@ const bioTextStyle = {
 }
 
 const iconContainerStyleBio = {
+    position: 'relative',
+    bottom: 0,
     marginTop: '3%',
     display: 'flex',
     justifyContent: 'center',
@@ -89,13 +91,15 @@ const Bio = () => {
                                 {bioText}
     
                         </div>
+                    </div>
+            </div>       
                         <div style={iconContainerStyleBio} className="icon-container">
                             <Icon component={YouTubeIcon}/>
                             <iframe title="soundcloud" allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Febcidic&color=white_transparent&size=32" style={{width: '32px', height: '32px'}}></iframe>
                             <a href={URLs.bandcampURL}><img style={{height:'32px', width: '32px', paddingTop: '20%'}} src={BandCampIcon} alt="bandcamp-icon" /></a>
                         </div>
-                    </div>
-            </div>
+                    
+            
                                
         </Layout>
     )
