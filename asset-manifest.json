@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ebcidic/static/css/main.3d6efb70.chunk.css",
-    "main.js": "/ebcidic/static/js/main.b531f36f.chunk.js",
-    "main.js.map": "/ebcidic/static/js/main.b531f36f.chunk.js.map",
-    "runtime-main.js": "/ebcidic/static/js/runtime-main.b6de7d74.js",
-    "runtime-main.js.map": "/ebcidic/static/js/runtime-main.b6de7d74.js.map",
+    "main.js": "/ebcidic/static/js/main.26700912.chunk.js",
+    "main.js.map": "/ebcidic/static/js/main.26700912.chunk.js.map",
+    "runtime-main.js": "/ebcidic/static/js/runtime-main.6840f8f6.js",
+    "runtime-main.js.map": "/ebcidic/static/js/runtime-main.6840f8f6.js.map",
     "static/css/2.07625b40.chunk.css": "/ebcidic/static/css/2.07625b40.chunk.css",
-    "static/js/2.827895fb.chunk.js": "/ebcidic/static/js/2.827895fb.chunk.js",
-    "static/js/2.827895fb.chunk.js.map": "/ebcidic/static/js/2.827895fb.chunk.js.map",
-    "static/js/3.e80195d1.chunk.js": "/ebcidic/static/js/3.e80195d1.chunk.js",
-    "static/js/3.e80195d1.chunk.js.map": "/ebcidic/static/js/3.e80195d1.chunk.js.map",
+    "static/js/2.8ca6473e.chunk.js": "/ebcidic/static/js/2.8ca6473e.chunk.js",
+    "static/js/2.8ca6473e.chunk.js.map": "/ebcidic/static/js/2.8ca6473e.chunk.js.map",
+    "static/js/3.d6f7cecc.chunk.js": "/ebcidic/static/js/3.d6f7cecc.chunk.js",
+    "static/js/3.d6f7cecc.chunk.js.map": "/ebcidic/static/js/3.d6f7cecc.chunk.js.map",
     "index.html": "/ebcidic/index.html",
     "static/css/2.07625b40.chunk.css.map": "/ebcidic/static/css/2.07625b40.chunk.css.map",
     "static/css/main.3d6efb70.chunk.css.map": "/ebcidic/static/css/main.3d6efb70.chunk.css.map",
-    "static/js/2.827895fb.chunk.js.LICENSE.txt": "/ebcidic/static/js/2.827895fb.chunk.js.LICENSE.txt",
+    "static/js/2.8ca6473e.chunk.js.LICENSE.txt": "/ebcidic/static/js/2.8ca6473e.chunk.js.LICENSE.txt",
     "static/media/CharmingHades.fe41a41b.jpg": "/ebcidic/static/media/CharmingHades.fe41a41b.jpg",
     "static/media/EbcidicTateModern.48c22f8f.jpg": "/ebcidic/static/media/EbcidicTateModern.48c22f8f.jpg",
     "static/media/App.css": "/ebcidic/static/media/Mosaic.51969634.jpg",
@@ -23,10 +23,10 @@
     "static/media/bandcampIcon.aed2107e.png": "/ebcidic/static/media/bandcampIcon.aed2107e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6de7d74.js",
+    "static/js/runtime-main.6840f8f6.js",
     "static/css/2.07625b40.chunk.css",
-    "static/js/2.827895fb.chunk.js",
+    "static/js/2.8ca6473e.chunk.js",
     "static/css/main.3d6efb70.chunk.css",
-    "static/js/main.b531f36f.chunk.js"
+    "static/js/main.26700912.chunk.js"
   ]
 }
