@@ -1,14 +1,15 @@
 import React from 'react'
 import useFitText from "use-fit-text";
 import { Icon, IconButton } from '@mui/material';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import BandCampIcon from '../assets/icons/bandcampIcon.png'
 
 //IMPORTED IMAGES
 import Ebcidic from '../assets/artist_photos/EbcidicTateModern.jpg'
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import BandCampIcon from '../assets/icons/bandcampIcon.png'
 
 
 import Layout from './Layout'
+import Icons from './Icons';
 
 const URLs = {
     bandcampURL: "https://ebcidic.bandcamp.com/",
@@ -54,18 +55,6 @@ const bioTextStyle = {
     marginBlockEnd: 0
 }
 
-const iconContainerStyleBio = {
-    position: 'relative',
-    bottom: 0,
-    marginTop: '3%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    margin: '0 auto',
-    width: '40%',
-    height: '10%'
-}
-
 const Bio = () => {
     const { fontSize, ref } = useFitText();
 
@@ -76,29 +65,12 @@ const Bio = () => {
                     <div style={biopicContainerStyle} className='biopic-container'>
                         <img style={biopicStyle} src={Ebcidic} alt='Ebcidic' />
                     </div>
-                        <div ref={ref} style={{fontSize, 
-                                                fontWeight: '200',
-                                                lineHeight: 1,
-                                                margin: '0 auto',
-                                                width: '90%',
-                                                minHeight: '30%',
-                                                maxHeight: '50%'
-                                                }} 
-                                                className='description-container'>
-                        
-                                {bioText}
-    
-                        </div>
+                    <div className='description-container' ref={ref} style={{fontSize, fontWeight: '200', lineHeight: 1, margin: '0 auto', width: '90%', minHeight: '30%', maxHeight: '50%'}}>
+                        {bioText}
                     </div>
+                </div>
             </div>       
-                        <div style={iconContainerStyleBio} className="icon-container">
-                            <Icon component={YouTubeIcon}/>
-                            <iframe title="soundcloud" allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Febcidic&color=white_transparent&size=32" style={{width: '32px', height: '32px'}}></iframe>
-                            <a href={URLs.bandcampURL}><img style={{height:'32px', width: '32px', paddingTop: '20%'}} src={BandCampIcon} alt="bandcamp-icon" /></a>
-                        </div>
-                    
-            
-                               
+                <Icons />                   
         </Layout>
     )
 }

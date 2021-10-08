@@ -63,7 +63,6 @@ function App() {
     slidesPerView: 1,
     spacing: 30,
     vertical: true,
-    loop: true,
     slideChanged(s) {
       setCurrentSlide(s.details().relativeSlide)
     },
@@ -125,10 +124,10 @@ function App() {
         </div>
         <div style={sliderStyle} className="keen-slider" ref={sliderRef}>
           <div style={keenSlideStyle} className="keen-slider__slide">
-          <Bio />
+            <Bio />
           </div>
           <div style={keenSlideStyle} className="keen-slider__slide">
-          <Release />
+            <Release />
           </div>
         </div>
         {/* {slider && (
