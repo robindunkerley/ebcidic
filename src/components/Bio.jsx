@@ -36,7 +36,7 @@ const Bio = () => {
                     <img style={{height: '80%', width: '80%', objectFit: 'cover'}}src={Ebcidic} alt="" />
                 </div>
                 <div className='bottom-container' style={{ height: bottomContainerHeight}}>
-                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: '80%', margin: '0 auto'}}>
+                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: '80%', margin: '0 auto', lineHeight: 1, fontWeight: 200}}>
                         {bioText}
                     </div>
                     <div style={{height: iconContainerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>

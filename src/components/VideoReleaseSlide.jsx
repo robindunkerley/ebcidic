@@ -68,7 +68,7 @@ const VideoReleaseSlide = () => {
                     </div>
                 </div>
                 <div className="bottomContainer" style={{height: bottomContainerHeight}}>
-                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: textContainerHeight, margin: '0 auto'}}className="text-container">
+                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: textContainerHeight, margin: '0 auto', lineHeight: 1, fontWeight: 200}}className="text-container">
                         {ary.description}
                     </div>
                     <div style={{height: '20%', width: '100%'}}></div>
