@@ -33,7 +33,7 @@ const Icons = (url) => {
              <YouTubeIcon/>
             </IconButton>
             <iframe title="soundcloud" allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Febcidic&color=white_transparent&size=32" style={{width: '32px', height: '32px', position: 'relative', bottom: 0}}></iframe>
-            <a href={urls.bandcampURL}><img style={{height:'32px', width: '32px', paddingTop: '20%'}} src={BandCampIcon} alt="bandcamp-icon" /></a>
+            <a target="_blank" rel="noreferrer" href={urls.bandcampURL}><img style={{height:'32px', width: '32px', paddingTop: '20%'}} src={BandCampIcon} alt="bandcamp-icon" /></a>
         </div>
     )
 }

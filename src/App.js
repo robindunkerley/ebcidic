@@ -10,7 +10,9 @@ import 'keen-slider/keen-slider.min.css'
 import Nav from './components/Nav';
 import Layout from './components/Layout';
 import Bio from './components/Bio';
-import Release from './components/Release';
+import VideoReleases from './components/VideoReleases';
+import ReleasesContent from './components/ReleasesContent';
+import VideoReleaseSlide from './components/VideoReleaseSlide';
 
 const pageStyle = {
   display: 'flex',
@@ -123,11 +125,15 @@ function App() {
 
         </div>
         <div style={sliderStyle} className="keen-slider" ref={sliderRef}>
+
           <div style={keenSlideStyle} className="keen-slider__slide">
             <Bio />
           </div>
           <div style={keenSlideStyle} className="keen-slider__slide">
-            <Release />
+            <ReleasesContent />
+          </div>
+          <div style={keenSlideStyle} className="keen-slider__slide">
+            <VideoReleaseSlide />
           </div>
         </div>
         {/* {slider && (

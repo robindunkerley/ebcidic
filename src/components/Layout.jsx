@@ -7,11 +7,11 @@ const layoutStyle ={
 
 const titleStyle = {
     border: '1px solid white',
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: '400',
     display: 'block',
     textAlign: 'left',
-    paddingLeft: '5%'
+    paddingLeft: '5%',
 }
 
 const contentStyle = {

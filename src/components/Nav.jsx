@@ -55,7 +55,7 @@ const Nav = () => {
     return (
         <div style={navStyle}>
             <div style={navLeftStyle} className="nav-left">
-                <span style={{marginLeft: '20%'}}>Ebcidic</span>
+                <span style={{marginLeft: '20%', fontSize: '1rem'}}>Ebcidic</span>
             </div>
             <div style={navRightStyle} className="nav-right">
                 <div style={iconContainerStyle} className='icon-container'>
