@@ -56,7 +56,7 @@ const VideoReleaseSlide = () => {
     
     return (
         <Layout title="Video Releases">
-            <Carousel autoPlay={false} showStatus={false}>
+            <Carousel autoPlay={false} showStatus={false} interval='9999999'>
             {videos.map(ary => {
     return  <div style={{height: '100%'}} className="content-container">
                 <div className="top-container" style={{height: topContainerHeight}}>

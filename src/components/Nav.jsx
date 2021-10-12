@@ -26,7 +26,6 @@ const navRightStyle = {
 }
 
 const iconContainerStyle = {
-    padding: '0 2rem',
     width: '100%',
     display: 'flex',
     justifyContent: 'space-between',

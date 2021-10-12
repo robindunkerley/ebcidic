@@ -80,7 +80,7 @@ const ReleasesContent = () => {
     const { fontSize, ref } = useFitText();
     return (
         <Layout title="Releases">
-            <Carousel autoPlay={false}>
+            <Carousel autoPlay={false} interval='9999999'>
             {release.map(ary => {
             return <div className="container" style={{height: '100%'}}>
                             <div className="top-container" style={{height: topContainerHeight}}>
