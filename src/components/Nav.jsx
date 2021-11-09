@@ -10,7 +10,9 @@ const navStyle ={
     border: '1px solid white',
     height: '10%',
     display: 'flex',
-    color: 'white'
+    color: 'white',
+    margin: '2px',
+    boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px'
 }
 
 const navLeftStyle = {
@@ -28,7 +30,8 @@ const navRightStyle = {
 const iconContainerStyle = {
     width: '100%',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
+    paddingRight: '5%'
 }
 
 const iconButtonProps = () => ({

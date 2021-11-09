@@ -1,5 +1,6 @@
 import { useKeenSlider } from 'keen-slider/react';
 import React, {useState} from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 //IMPORTED CSS
 import './App.css';
@@ -8,6 +9,7 @@ import 'keen-slider/keen-slider.min.css'
 
 //IMPORTED COMPONENTS
 import Nav from './components/Nav';
+import Ebcidic from './components/Ebcidic'
 import Layout from './components/Layout';
 import Bio from './components/Bio';
 import VideoReleases from './components/VideoReleases';
@@ -24,9 +26,9 @@ const pageStyle = {
 
 const slideStyle = {
   backgroundColor: 'black',
-  width: '90vw',
-  height: '90vh',
-  margin: '0 auto'
+  width: '80vw',
+  height: '80vh',
+  margin: '0 auto',
 }
 
 const spacer = {
@@ -63,11 +65,14 @@ function App() {
   const [sliderRef, slider] = useKeenSlider({
     centered: true,
     slidesPerView: 1,
-    spacing: 30,
+    spacing: 0,
     vertical: true,
     slideChanged(s) {
       setCurrentSlide(s.details().relativeSlide)
     },
+  })
+  const isDesktop = useMediaQuery({
+    query: '(min-width: 700px)'
   })
 
   //SLIDER FUNCTIONS
@@ -127,7 +132,11 @@ function App() {
         <div style={sliderStyle} className="keen-slider" ref={sliderRef}>
 
           <div style={keenSlideStyle} className="keen-slider__slide">
-            <Bio />
+            {isDesktop ? (
+              <Ebcidic />
+            ):(
+              <Bio />
+            )}         
           </div>
           <div style={keenSlideStyle} className="keen-slider__slide">
             <ReleasesContent />

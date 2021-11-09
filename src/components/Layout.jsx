@@ -6,17 +6,25 @@ const layoutStyle ={
 }
 
 const titleStyle = {
-    border: '1px solid white',
+    boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px',
+    margin: '2px',
+    paddingLeft: '5%',
+    padding: '0.5em',
     fontSize: '1.5rem',
+    width: '96%',
     fontWeight: '400',
     display: 'block',
     textAlign: 'left',
-    paddingLeft: '5%',
+    borderRadius: '10px'
+    
 }
 
 const contentStyle = {
     height: '80%',
-    border: '1px solid white'
+    margin: '2px',
+    boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px',
+    width: '96%',
+    borderRadius: '10px'
 }
 
 
