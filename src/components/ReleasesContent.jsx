@@ -87,7 +87,7 @@ const ReleasesContent = () => {
                                 <div className='title-container' style={{height: titleContainerHeight, display: 'flex', justifyContent: 'center', alignItems: 'flex-end'}}>
                                     {ary.title}
                                 </div>
-                            <div className='artworkContainer' style={{height: artworkContainerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center', border: '2px solid red'}}>
+                            <div className='artworkContainer' style={{height: artworkContainerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                 <img style={{height: artworkContainerHeight, width: artworkContainerHeight, objectFit: 'contain'}}src={ary.artwork}/>
                             </div>
                         </div>

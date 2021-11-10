@@ -29,6 +29,7 @@ const slideStyle = {
   width: '80vw',
   height: '80vh',
   margin: '0 auto',
+  overflow: 'hidden'
 }
 
 const spacer = {

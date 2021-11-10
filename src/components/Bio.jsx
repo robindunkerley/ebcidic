@@ -23,7 +23,7 @@ const bioText = "Ebcidic is the artist name of Techno & experimental/drone produ
 const Bio = () => {
     const topContainerHeight = '51%';
     const bottomContainerHeight = '39%';
-    const textContainerHeight = '70%';
+    const textContainerHeight = '100%';
     const iconContainerHeight = bottomContainerHeight - textContainerHeight;
     const { fontSize, ref } = useFitText();
 
