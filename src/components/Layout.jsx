@@ -16,7 +16,6 @@ const titleStyle = {
     display: 'block',
     textAlign: 'left',
     borderRadius: '10px'
-    
 }
 
 const contentStyle = {

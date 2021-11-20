@@ -92,7 +92,7 @@ const ReleasesContent = () => {
                             </div>
                         </div>
                         <div className="bottom-container" style={{height: bottomContainerHeight}}>
-                            <div ref={ref} className="text-container" style={{fontSize, height: textContainerHeight, width: '70%', margin: '0 auto', lineHeight: 1, fontWeight: 200}}>
+                            <div ref={ref} className="text-container" style={{fontSize, height: textContainerHeight, width: '70%', margin: '0 auto', lineHeight: 1, fontWeight: 200, marginBottom: '2%'}}>
                                 {ary.description}
                             </div>
                             <div className="icon-container" style={{height: iconContainerHeight}}>

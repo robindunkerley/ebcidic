@@ -26,10 +26,12 @@ const pageStyle = {
 
 const slideStyle = {
   backgroundColor: 'black',
-  width: '80vw',
+  width: '85vw',
   height: '80vh',
   margin: '0 auto',
-  overflow: 'hidden'
+  overflow: 'hidden',
+  boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px',
+  borderRadius: '5px'
 }
 
 const spacer = {

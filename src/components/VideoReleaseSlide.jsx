@@ -45,10 +45,10 @@ const videos = [
 
 
 const VideoReleaseSlide = () => {
-    const topContainerHeight = '61%';
-    const titleContainerHeight = '20%';
-    const iframeContainerHeight = '80%';
-    const bottomContainerHeight = '39%';
+    const topContainerHeight = '80%';
+    const titleContainerHeight = '10%';
+    const iframeContainerHeight = '90%';
+    const bottomContainerHeight = '20%';
     const textContainerHeight = '80%'
     const { fontSize, ref } = useFitText();
 
@@ -58,12 +58,12 @@ const VideoReleaseSlide = () => {
         <Layout title="Video Releases">
             <Carousel autoPlay={false} showStatus={false} interval='9999999'>
             {videos.map(ary => {
-    return  <div style={{height: '100%'}} className="content-container">
+    return  <div style={{height: '100%', padding: '1rem'}} className="content-container">
                 <div className="top-container" style={{height: topContainerHeight}}>
                     <div style={{height: titleContainerHeight, width: '100%', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center'}}className="title-container">
                         {ary.title}
                     </div>
-                    <div style={{height: iframeContainerHeight}}className="iframe-container">
+                    <div style={{height: iframeContainerHeight, maxWidth: '500px', margin: '0 auto'}}className="iframe-container">
                     <iframe width="100%" height="100%" src={ary.source} srcdoc={ary.srcdoc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>

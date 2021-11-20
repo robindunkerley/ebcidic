@@ -12,7 +12,7 @@ const navStyle ={
     display: 'flex',
     color: 'white',
     margin: '2px',
-    boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px'
+    boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px',
 }
 
 const navLeftStyle = {
