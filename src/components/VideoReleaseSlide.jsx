@@ -60,15 +60,15 @@ const VideoReleaseSlide = () => {
             {videos.map(ary => {
     return  <div style={{height: '100%', padding: '1rem'}} className="content-container">
                 <div className="top-container" style={{height: topContainerHeight}}>
-                    <div style={{height: titleContainerHeight, width: '100%', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center'}}className="title-container">
+                    <div style={{height: titleContainerHeight, width: '100%', textAlign: 'left', paddingLeft: '10%'}}className="title-container">
                         {ary.title}
                     </div>
-                    <div style={{height: iframeContainerHeight, maxWidth: '500px', margin: '0 auto'}}className="iframe-container">
+                    <div style={{height: iframeContainerHeight, maxWidth: '700px', margin: '0 auto'}}className="iframe-container">
                     <iframe width="100%" height="100%" src={ary.source} srcdoc={ary.srcdoc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div className="bottomContainer" style={{height: bottomContainerHeight}}>
-                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: textContainerHeight, margin: '0 auto', lineHeight: 1, fontWeight: 200}}className="text-container">
+                    <div ref={ref} style={{fontSize, height: textContainerHeight, width: '70%', margin: '0 auto', lineHeight: 1, fontWeight: 200}}className="text-container">
                         {ary.description}
                     </div>
                     <div style={{height: '20%', width: '100%'}}></div>

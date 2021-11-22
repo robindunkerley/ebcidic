@@ -133,6 +133,7 @@ function App() {
 
         </div>
         <div style={sliderStyle} className="keen-slider" ref={sliderRef}>
+ 
 
           <div style={keenSlideStyle} className="keen-slider__slide">
             {isDesktop ? (

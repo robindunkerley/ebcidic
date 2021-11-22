@@ -6,6 +6,7 @@ import { Icon } from '@mui/material';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Icons from './Icons';
 import {useWindowSize} from '@react-hook/window-size';
+import { useMediaQuery } from 'react-responsive';
 
 //IMPORTED CSS
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -71,12 +72,15 @@ const ReleasesContent = () => {
     const openURL = (url) => {
         window.open(url, '_blank' )
     }
-    const topContainerHeight = '61%'
+    const isDesktop = useMediaQuery({
+        query: '(min-width: 700px)'
+      })
+    const topContainerHeight = isDesktop? ('71%') : ('61%');
     const titleContainerHeight = '20%';
     const artworkContainerHeight = '80%';
-    const bottomContainerHeight = '39%';
-    const textContainerHeight = "50%";
-    const iconContainerHeight = "50%";
+    const bottomContainerHeight = isDesktop? ('29%') : ('39%');
+    const textContainerHeight = "40%";
+    const iconContainerHeight = "60%";
     const { fontSize, ref } = useFitText();
     return (
         <Layout title="Releases">
@@ -88,7 +92,7 @@ const ReleasesContent = () => {
                                     {ary.title}
                                 </div>
                             <div className='artworkContainer' style={{height: artworkContainerHeight, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                                <img style={{height: artworkContainerHeight, width: artworkContainerHeight, objectFit: 'contain'}}src={ary.artwork}/>
+                                <img style={{height: artworkContainerHeight, objectFit: 'contain'}}src={ary.artwork} alt={ary.title}/>
                             </div>
                         </div>
                         <div className="bottom-container" style={{height: bottomContainerHeight}}>
