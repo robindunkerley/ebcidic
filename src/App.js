@@ -24,7 +24,21 @@ const pageStyle = {
   width: '100vw'
 }
 
-const slideStyle = {
+const slideStyleDesktop = {
+  backgroundColor: 'black',
+  width: '85vw',
+  height: '80vh',
+  margin: '0 auto',
+  overflow: 'hidden',
+  boxShadow: 'rgb(255 255 255 / 20%) 0px 0px 15px, rgb(255 255 255 / 15%) 0px 0px 3px 1px',
+  borderRadius: '5px'
+}
+
+const slideStyleMobile = {
+  position: 'absolute',
+  right: '0px',
+  left: '0px',
+  bottom: '20px',
   backgroundColor: 'black',
   width: '85vw',
   height: '80vh',
@@ -110,7 +124,7 @@ function App() {
 
   return (
     <div className="App" style={pageStyle}>
-      <div style={slideStyle} className="base-slide">
+      <div style={ isDesktop? (slideStyleDesktop) : (slideStyleMobile)} className="base-slide">
         <Nav />
         <div style={spacer} className='spacer'></div>
 
