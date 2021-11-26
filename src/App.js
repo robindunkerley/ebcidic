@@ -12,9 +12,8 @@ import Nav from './components/Nav';
 import Ebcidic from './components/Ebcidic'
 import Layout from './components/Layout';
 import Bio from './components/Bio';
-import VideoReleases from './components/VideoReleases';
 import ReleasesContent from './components/ReleasesContent';
-import VideoReleaseSlide from './components/VideoReleaseSlide';
+import { YouTubeReleases } from './components/YouTubeReleases';
 
 const pageStyle = {
   display: 'flex',
@@ -147,8 +146,6 @@ function App() {
 
         </div>
         <div style={sliderStyle} className="keen-slider" ref={sliderRef}>
- 
-
           <div style={keenSlideStyle} className="keen-slider__slide">
             {isDesktop ? (
               <Ebcidic />
@@ -160,8 +157,9 @@ function App() {
             <ReleasesContent />
           </div>
           <div style={keenSlideStyle} className="keen-slider__slide">
-            <VideoReleaseSlide />
+            <YouTubeReleases />
           </div>
+
         </div>
         {/* {slider && (
           <>
