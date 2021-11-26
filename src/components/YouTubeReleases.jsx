@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 import { YoutubeSlide } from './YouTubeSlide';
 import { Carousel } from 'react-responsive-carousel';
 import Layout from './Layout';
@@ -15,7 +15,7 @@ export const YouTubeReleases = () => {
     return (
         <Layout title="Video Releases">
             <div style={carouselStyle} className="content-container">
-                <Carousel renderItem={customRenderItem}>
+                <Carousel renderItem={customRenderItem} showIndicators={false}>
                     <YoutubeSlide key="youtube-1" url="https://www.youtube.com/embed/FmOF62Ezw04" />
                     <YoutubeSlide key="youtube-2" url="https://www.youtube.com/embed/uGZTNGXTK5U" />
                     <YoutubeSlide key="youtube-3" url="https://www.youtube.com/embed/7pkXaAI1DV0" />
