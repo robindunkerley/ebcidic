@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ebcidic/static/css/main.ba0df0bd.chunk.css",
-    "main.js": "/ebcidic/static/js/main.6e832971.chunk.js",
-    "main.js.map": "/ebcidic/static/js/main.6e832971.chunk.js.map",
+    "main.js": "/ebcidic/static/js/main.b358d08d.chunk.js",
+    "main.js.map": "/ebcidic/static/js/main.b358d08d.chunk.js.map",
     "reactPlayerDailyMotion.js": "/ebcidic/static/js/reactPlayerDailyMotion.17b4819c.chunk.js",
     "reactPlayerDailyMotion.js.map": "/ebcidic/static/js/reactPlayerDailyMotion.17b4819c.chunk.js.map",
     "reactPlayerFacebook.js": "/ebcidic/static/js/reactPlayerFacebook.c1724156.chunk.js",
@@ -32,14 +32,14 @@
     "runtime-main.js": "/ebcidic/static/js/runtime-main.210e6fdd.js",
     "runtime-main.js.map": "/ebcidic/static/js/runtime-main.210e6fdd.js.map",
     "static/css/15.07625b40.chunk.css": "/ebcidic/static/css/15.07625b40.chunk.css",
-    "static/js/15.94d7ec9a.chunk.js": "/ebcidic/static/js/15.94d7ec9a.chunk.js",
-    "static/js/15.94d7ec9a.chunk.js.map": "/ebcidic/static/js/15.94d7ec9a.chunk.js.map",
+    "static/js/15.21f3d3dc.chunk.js": "/ebcidic/static/js/15.21f3d3dc.chunk.js",
+    "static/js/15.21f3d3dc.chunk.js.map": "/ebcidic/static/js/15.21f3d3dc.chunk.js.map",
     "static/js/16.cef8be0f.chunk.js": "/ebcidic/static/js/16.cef8be0f.chunk.js",
     "static/js/16.cef8be0f.chunk.js.map": "/ebcidic/static/js/16.cef8be0f.chunk.js.map",
     "index.html": "/ebcidic/index.html",
     "static/css/15.07625b40.chunk.css.map": "/ebcidic/static/css/15.07625b40.chunk.css.map",
     "static/css/main.ba0df0bd.chunk.css.map": "/ebcidic/static/css/main.ba0df0bd.chunk.css.map",
-    "static/js/15.94d7ec9a.chunk.js.LICENSE.txt": "/ebcidic/static/js/15.94d7ec9a.chunk.js.LICENSE.txt",
+    "static/js/15.21f3d3dc.chunk.js.LICENSE.txt": "/ebcidic/static/js/15.21f3d3dc.chunk.js.LICENSE.txt",
     "static/media/CharmingHades.fe41a41b.jpg": "/ebcidic/static/media/CharmingHades.fe41a41b.jpg",
     "static/media/EbcidicTateModern.48c22f8f.jpg": "/ebcidic/static/media/EbcidicTateModern.48c22f8f.jpg",
     "static/media/App.css": "/ebcidic/static/media/Mosaic.51969634.jpg",
@@ -51,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.210e6fdd.js",
     "static/css/15.07625b40.chunk.css",
-    "static/js/15.94d7ec9a.chunk.js",
+    "static/js/15.21f3d3dc.chunk.js",
     "static/css/main.ba0df0bd.chunk.css",
-    "static/js/main.6e832971.chunk.js"
+    "static/js/main.b358d08d.chunk.js"
   ]
 }
