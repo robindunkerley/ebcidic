@@ -1,6 +1,5 @@
 import React from 'react'
 import { IconButton } from '@mui/material';
-import { Icon } from '@mui/material';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import BandCampIcon from '../assets/icons/bandcampIcon.png'
 
