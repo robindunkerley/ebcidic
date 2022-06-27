@@ -1,5 +1,4 @@
 import React from 'react'
-import { Icon } from '@material-ui/core';
 import { IconButton } from '@mui/material';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';

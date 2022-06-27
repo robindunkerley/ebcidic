@@ -4,8 +4,6 @@ import Icons from './Icons';
 import EbcidicPic from '../assets/artist_photos/EbcidicTateModern.jpg'
 import useFitText from "use-fit-text";
 
-import Bio from './Bio';
-
 
 const bioText = "Ebcidic is the artist name of Techno & experimental/drone producer and live performer Phil Bilsby based in Brighton, UK. During 2018/19, with both his ‘Charming Hades’ & ‘Mosaic' industrial ambient drone albums, and more recently with his ’Suture EP’ & ‘Pressure Complex’ releases in 2020 sees Ebcidic continue to delve deeper into the darker & harder side of techno through his extended live sets marrying claustrophobic industrial textures & soundscapes underpinned by tough unrelenting rhythms & percussion."
 

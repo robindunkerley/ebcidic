@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player/lazy';
 import { YoutubeSlide } from './YouTubeSlide';
 import { Carousel } from 'react-responsive-carousel';
 import Layout from './Layout';

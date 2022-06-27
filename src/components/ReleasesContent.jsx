@@ -1,11 +1,8 @@
-import React, {useState, useRef, useLayoutEffect} from 'react'
+import React from 'react'
 import useFitText from "use-fit-text";
 import { Carousel } from 'react-responsive-carousel';
 import { IconButton } from '@mui/material';
-import { Icon } from '@mui/material';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import Icons from './Icons';
-import {useWindowSize} from '@react-hook/window-size';
 import { useMediaQuery } from 'react-responsive';
 
 //IMPORTED CSS
@@ -22,7 +19,6 @@ import Mosaic from '../assets/release_artwork/Mosaic.jpg'
 import PressureComplex from '../assets/release_artwork/PressureComplex.jpg'
 import Suture from '../assets/release_artwork/Suture.jpg'
 import VestigeOfBefore from '../assets/release_artwork/VestigeOfBefore.jpg'
-import SoundCloudIcon from '../assets/icons/soundcloudIcon.png'
 import BandCamp from '../assets/icons/bandcamp.png'
 
 const release = [
